@@ -1,60 +1,70 @@
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fffded;
-            width: 600px;
-            margin-top: 0;
-            margin-bottom: 0;
-            margin-left: auto;
-            margin-right: auto;
-            border: 3px solid #931420;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffded;
+    width: 800px; /* Updated width to 800 pixels */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #931420;
+}
 
-        header {
-            background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-            color: #931420;
-            text-align: center;
-            padding: 1.5em 0 2em;
-            border-bottom: 3px solid #931420;
-            position: relative; 
-        }
+header {
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    color: #931420;
+    text-align: center;
+    padding: 1.5em 0 2em;
+    border-bottom: 3px solid #931420;
+    position: relative;
+}
 
-        header h2, header h3 {
-            text-indent: 0;
-        }
+header h2, header h3 {
+    text-indent: 0;
+}
 
-        header img {
-            padding: 10px;
-            position: absoulte;
-            top: 10px;
-            left: 10px;
-        }
+header img {
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
-        main {
-            padding: 20px 30px;
-        }
+main {
+    padding: 0; /* Remove left and right padding */
+}
 
-        main h1 {
-            border-top: 3px solid #931420;
-            border-bottom: 3px solid #931420;
-            text-align: center;
-            padding: 10px;
-            color: #931420;
-        }
+section {
+    width: 525px; /* Set the width of the section to 525 pixels */
+    float: right; /* Float the section to the right */
+    padding: 20px; /* Set padding for top, right, bottom, and left */
+}
 
-        footer {
-            background-color: #931420;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            border-top: 3px solid #931420;
-        }
+aside {
+    width: 215px; /* Set the width of the aside to 215 pixels */
+    float: right; /* Float the aside to the right */
+    padding: 0 20px 20px 20px; /* Set padding for right, bottom, and left */
+}
 
-        footer p {
-            color: white;
-        }
+footer {
+    background-color: #931420;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-top: 3px solid #931420;
+    clear: both; /* Clear the float property */
+}
 
-        blockquote {
-            font-style: italic;
-        }
+footer p {
+    color: white;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+/* Style rule for h2 headings in both section and aside */
+section h2, aside h2 {
+    color: #931420;
+}
