@@ -52,3 +52,15 @@ header {
 main img {
     margin-bottom: 10px; 
 }
+body { 
+width: 90%; 
+background-color: white; 
+margin: lSpx auto; 
+border: lpx solid black; } 
+main { 
+float: left; } 
+aside { 
+height: 350px;  
+width: 360px; 
+border-left: -2p- x~ s~olid #ef9c00; 
+float: right; } 
