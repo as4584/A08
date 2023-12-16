@@ -1,0 +1,54 @@
+main h1 {
+    padding: 0.3em 0; 
+}
+
+main h2 {
+    padding: 0.5em 0.25em; 
+}
+
+main h3 {
+    padding-bottom: 0.25em; 
+}
+
+main img {
+    padding-bottom: 1em; 
+}
+
+main p {
+    padding-bottom: 0.5em; 
+}
+
+main blockquote {
+    padding: 0 2em; 
+}
+
+main ul {
+    padding-bottom: 0.25em; 
+    padding-left: 1.25em; 
+}
+
+main li {
+    padding-bottom: 0.35em; 
+}
+
+footer p {
+    padding: 1em 0; 
+}
+
+main blockquote {
+    font-style: italic;
+    padding: 0 2em; 
+}
+
+header {
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    color: #931420;
+    text-align: center;
+    padding: 1.5em 0 2em;
+    border-bottom: 3px solid #931420;
+    position: relative;
+}
+
+main img {
+    margin-bottom: 10px; 
+}
