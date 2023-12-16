@@ -68,3 +68,13 @@ blockquote {
 section h2, aside h2 {
     color: #931420;
 }
+/* Style rule for h3 element in the aside */
+aside h3 {
+    font-size: 105%; /* Set the font size to 105% */
+    padding-bottom: 0.25em; /* Set the bottom padding to 0.25 ems */
+}
+
+/* Style rule for img elements in the aside */
+aside img {
+    padding-bottom: 1em; /* Set the bottom padding to 1 em */
+}
